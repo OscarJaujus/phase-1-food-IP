@@ -11,7 +11,7 @@ let likeButton = document.getElementById('like-button')
 
 
 
-
+// eventListener
 searchBtn.addEventListener("click", () => {
     let foodName = foodForm.value;
     let finalURL =
