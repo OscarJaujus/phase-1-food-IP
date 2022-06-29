@@ -11,27 +11,27 @@ let likeButton = document.getElementById('like-button')
 
 
 
-// eventListener
-searchBtn.addEventListener("click", () => {
-    let foodName = foodForm.value;
-    let finalURL =
-        console.log(finalURL);
+// // eventListener
+// searchBtn.addEventListener("click", () => {
+//     let foodName = foodForm.value;
+//     let finalURL =
+//         console.log(finalURL);
 
-    //fecth url
-    fetch(finalURL)
-        .then((response) => response.json())
-        .then((data) => {
+//     //fecth url
+//     fetch(finalURL)
+//         .then((response) => response.json())
+//         .then((data) => {
 
-            result.innerHTML = ` `
-        })
-        .catch(() => {
-            if (foodName.length == 0) {
-                result.innerHTML = `<h3>The input field cannot be empty</h3>`;
-            } else {
-                result.innerHTML = `<h3>Please enter a valid food name </h3>`;
-            }
-        });
-});
+//             result.innerHTML = ` `
+//         })
+//         .catch(() => {
+//             if (foodName.length == 0) {
+//                 result.innerHTML = `<h3>The input field cannot be empty</h3>`;
+//             } else {
+//                 result.innerHTML = `<h3>Please enter a valid food name </h3>`;
+//             }
+//         });
+// });
 
 
 let integer = 0;
