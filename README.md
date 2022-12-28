@@ -1,6 +1,6 @@
 # phase-1-food-IP
 
-# Name of the Project
+## Name of the Project
 Food Database
 
 # Author : Name Date
